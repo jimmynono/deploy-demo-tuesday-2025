@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<h1>Home</h1>} />
+          <Route path="/" element={<h1>Home Page</h1>} />
           <Route path="/github/search" element={<GithubUserSearch />} />
           <Route path="/github/users/:username" element={<GithubUser />} />
           <Route path="*" element={<NotFound />} />
