@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <ul>
       <li>
-      <Link to="/">Home Page Link Here This is a change at 6:56pm but now it is 7:12</Link>
+      <Link to="/">Home Page Link Here This is a change at 6:56pm but now it is 7:30</Link>
       </li>
       <li>
         <Link to="/github/search">Github Search</Link>
